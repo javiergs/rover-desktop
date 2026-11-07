@@ -8,7 +8,7 @@ Universal Robots Desktop brings robot visualization and interactive controls tog
 
 ![Universal Robots Desktop interface showing a 3D robot view, joint controls, and tool-position readouts](assets/app-screenshot.png)
 
-> **Release status:** A public installer is not available yet. The first beta release is being prepared. The interface exists, but connected-robot behavior and installer compatibility still need validation.
+> **Release status:** A public installer is not available yet. The first beta release is being prepared.
 
 ## What you can explore
 
@@ -20,7 +20,9 @@ Universal Robots Desktop brings robot visualization and interactive controls tog
 - **Connection settings** — enter a robot or simulator IP address and communication ports.
 - **Preset poses** — access *Initial Pose* and *Drawing Pose* controls.
 
-These controls are present in the current interface; their operation with a connected robot has not yet been fully verified.
+## Validation
+
+Universal Robots Desktop was validated with a physical Universal Robots robot and with URSim.
 
 ## Download
 
