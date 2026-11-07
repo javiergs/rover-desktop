@@ -22,7 +22,7 @@ Universal Robots Desktop was validated with a physical Universal Robots robot an
 
 ## Download
 
-See **[Releases](https://github.com/javiergs/universal-robots-desktop/releases)** for beta installers and supported platforms. Download the installer from the release assets. GitHub’s automatically generated archives contain this public documentation repository.
+See **[Releases](https://github.com/javiergs/universal-robots-desktop/releases)** for version 1.0.0 installers and supported platforms. Download the installer from the release assets. GitHub’s automatically generated archives contain this public documentation repository.
 
 ## Getting started
 
@@ -42,4 +42,4 @@ The application currently exposes connection settings for Universal Robots inter
 
 Have a question, found a problem, or want to suggest an improvement? Use [Issues](https://github.com/javiergs/universal-robots-desktop/issues).
 
-When reporting an issue, include your operating system, application version (once available), whether you used URSim or physical hardware, and steps to reproduce the problem.
+When reporting an issue, include your operating system, application version, whether you used URSim or physical hardware, and steps to reproduce the problem.
