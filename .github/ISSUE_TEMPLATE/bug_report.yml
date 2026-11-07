@@ -8,7 +8,7 @@ body:
     attributes:
       label: Application version
       description: Use the version shown by the installed application, if available.
-      placeholder: "e.g., beta version or not yet released"
+      placeholder: "e.g., 1.0.0"
     validations:
       required: true
   - type: input
