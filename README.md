@@ -6,7 +6,7 @@
 
 Universal Robots Desktop brings robot visualization and interactive controls together in a graphical interface. It is designed for experimentation with Universal Robots and URSim, with a simulator-first approach.
 
-![Universal Robots Desktop interface showing a 3D robot view, joint controls, and tool-position readouts](https://github.com/user-attachments/assets/1078652b-4d9e-4134-90ba-9b6eb637ebd9)
+![Universal Robots Desktop interface showing a 3D robot view, joint controls, and tool-position readouts](assets/app-screenshot.png)
 
 > **Release status:** A public installer is not available yet. The first beta release is being prepared. The interface exists, but connected-robot behavior and installer compatibility still need validation.
 
