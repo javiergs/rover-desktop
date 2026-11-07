@@ -38,10 +38,6 @@ The application currently exposes connection settings for Universal Robots inter
 
 **Use URSim first.** This application is experimental and is **not a safety-rated robot controller**. Its interface does not replace PolyScope, protective stops, emergency-stop equipment, or the safety procedures required for a physical robot. Do not command a physical robot without validating compatibility, performing an appropriate risk assessment, and establishing suitable safeguards.
 
-## License and availability
-
-The application binaries are distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Bundled third-party components retain their respective licenses. The application source code is kept in a private repository.
-
 ## Feedback
 
 Have a question, found a problem, or want to suggest an improvement? Use [Issues](https://github.com/javiergs/universal-robots-desktop/issues).
