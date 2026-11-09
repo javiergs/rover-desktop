@@ -1,6 +1,11 @@
-# Universal Robots Desktop
+Project:
 
-**A visual desktop application for exploring Universal Robots e-Series robots and simulators.**
+# Remote Operation and Visualization of Embodied Robots (ROVER)
+
+Module:
+## ROVER Desktop
+
+A visual desktop application for exploring Universal Robots e-Series robots and simulators.
 
 Universal Robots Desktop brings robot visualization and interactive controls together in a graphical interface. It is designed for experimentation with Universal Robots and URSim, with a simulator-first approach.
 
