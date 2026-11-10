@@ -54,10 +54,6 @@ The installers retain the original Universal Robotics Desktop filenames. GitHub'
 
 Connection settings include Universal Robots interfaces on ports **30002** and **30004**. The required network configuration depends on your controller or simulator.
 
-## Research direction
-
-ROVER Desktop provides an existing, validated robot-control and visualization foundation for investigating higher-level interaction, including conversational AI and [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) tool interfaces. **Claude/MCP-driven motion control is proposed future integration work and is not claimed as a feature of the v1.0.0 release.**
-
 ## Safety
 
 **Use URSim first.** ROVER Desktop is experimental research software and is **not a safety-rated robot controller**. The desktop interface does not replace PolyScope, protective stops, emergency-stop equipment, or the safety procedures required for a physical robot. Motion commands to a physical robot require an appropriate risk assessment, a supervised workspace, and suitable safeguards. An AI-agent integration must also enforce independent command validation and safety constraints.
