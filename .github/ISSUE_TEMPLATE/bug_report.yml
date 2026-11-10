@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a problem with a released Universal Robots Desktop build.
+description: Report a problem with a released ROVER Desktop build.
 title: "[Bug] "
 labels: ["bug"]
 body:
@@ -7,7 +7,7 @@ body:
     id: version
     attributes:
       label: Application version
-      description: Use the version shown by the installed application, if available.
+      description: Use the installed version or the version on the release page if installation failed.
       placeholder: "e.g., 1.0.0"
     validations:
       required: true
@@ -32,9 +32,25 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      description: Describe what you did, what you expected, and what happened.
+      description: List the steps needed to reproduce the problem.
     validations:
       required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: controller_version
+    attributes:
+      label: URSim or PolyScope version (if relevant)
   - type: textarea
     id: details
     attributes:
