@@ -60,6 +60,8 @@ Connection settings include Universal Robots interfaces on ports **30002** and *
 
 ## Feedback
 
-Questions, bugs, and suggestions are welcome through [GitHub Issues](https://github.com/javiergs/rover-desktop/issues).
+[Open an issue](https://github.com/javiergs/rover-desktop/issues/new/choose) to report a bug, suggest a feature, or flag unclear documentation.
 
-When reporting a problem, include your operating system, application version, whether you used URSim or physical hardware, and steps to reproduce it.
+For bugs, include the ROVER Desktop version, your operating system, and whether you were using URSim, a physical robot, or the app offline. Tell us how to reproduce the problem, what you expected, and what happened. Sanitized logs or screenshots are welcome.
+
+For problems with a Java example or the URSim setup guide, use [RTDE4J Getting Started issues](https://github.com/javiergs/rtde4j-getting-started/issues/new/choose).
