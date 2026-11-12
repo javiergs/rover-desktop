@@ -43,6 +43,17 @@ Download **[ROVER Desktop v1.0.0](https://github.com/javiergs/rover-desktop/rele
 
 The installers retain the original Universal Robotics Desktop filenames. GitHub's automatically generated source archives contain this public documentation repository rather than the installed application.
 
+## ROVER Desktop v2.0.0 prerelease
+
+The [v2.0.0 prerelease](https://github.com/javiergs/rover-desktop/releases/tag/v2.0.0) adds a built-in UR3e simulator, tool paths and drawing playback, and a bundled Claude Desktop bridge. The stable v1.0.0 installers remain available above.
+
+1. Install and open ROVER Desktop.
+2. Choose **Help → Set up Claude Desktop…**. If ROVER detects Claude on first launch, it offers the same setup.
+3. Confirm the change and restart Claude. Setup backs up your Claude configuration and updates only the ROVER entry.
+4. Open ROVER normally when you want Claude to use it. Select **Enable MCP (offline simulation)** while disconnected to allow simulator motion.
+
+Claude’s bridge connects to the running app and asks you to open ROVER if it is closed. For a manual Java 21 setup, run the prerelease’s MCP JAR with `--mcp-bridge`.
+
 ## Getting started
 
 1. Download and install the [latest published release](https://github.com/javiergs/rover-desktop/releases).
