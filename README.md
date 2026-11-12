@@ -12,7 +12,7 @@ Unlike an offline 3D model, the application supports **continuous RTDE robot-sta
 
 ![ROVER Desktop v2 showing a 3D UR3e, joint sliders, tool controls, orthographic tool views, and Jog Canvas](assets/app-screenshot-v200.png)
 
-*ROVER Desktop v2.0.0 prerelease. [View the v1.0.0 interface](assets/app-screenshot-v100.png).*
+ROVER Desktop v2.0.0 prerelease.
 
 ## Stable v1.0.0 features
 
@@ -25,6 +25,8 @@ Unlike an offline 3D model, the application supports **continuous RTDE robot-sta
 - **Spatial Board** — a grid-based spatial interaction view.
 - **Preset poses** — access *Initial Pose* and *Drawing Pose* controls.
 - **Connection settings** — configure the controller or simulator IP address and communication ports.
+
+[View the v1.0.0 interface](assets/app-screenshot-v100.png).
 
 ## Implementation and validation
 
