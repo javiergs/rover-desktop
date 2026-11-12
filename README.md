@@ -10,7 +10,7 @@ ROVER Desktop is a **fully functional desktop application and real-time digital 
 
 Unlike an offline 3D model, the application supports **continuous RTDE robot-state streaming and interactive motion control**. The released application has been tested with both a physical Universal Robots robot and URSim.
 
-![ROVER Desktop interface showing a 3D robot view, joint controls, and tool-position readouts](assets/app-screenshot.png)
+![ROVER Desktop interface showing a 3D robot view, joint controls, and tool-position readouts](assets/app-screenshot-v100.png)
 
 ## Features
 
