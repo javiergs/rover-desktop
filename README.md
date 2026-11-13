@@ -77,6 +77,10 @@ Keep ROVER open while using its tools in Claude. MCP motion is available only in
 
 Connection settings include Universal Robots interfaces on ports **30002** and **30004**. The required network configuration depends on your controller or simulator.
 
+## ROVER Web
+
+Want to explore a UR3e in your browser without installing an application? Try [ROVER Web](https://javiergs.github.io/rover-web/). It provides interactive 3D simulation, joint controls, tool flange readouts, and an MQTT playground. ROVER Web does not directly control a physical robot; use ROVER Desktop for the documented URSim or physical-controller connection features.
+
 ## Safety
 
 **Use URSim first.** ROVER Desktop is experimental research software and is **not a safety-rated robot controller**. The desktop interface does not replace PolyScope, protective stops, emergency-stop equipment, or the safety procedures required for a physical robot. Motion commands to a physical robot require an appropriate risk assessment, a supervised workspace, and suitable safeguards. An AI-agent integration must also enforce independent command validation and safety constraints.
