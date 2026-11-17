@@ -12,10 +12,10 @@ Unlike an offline 3D model, the application supports **continuous RTDE robot-sta
 
 ## Download
 
-| Version | macOS (Apple silicon) | Windows (x64) |
-| --- | --- | --- |
-| [v1.0.0 stable](https://github.com/javiergs/rover-desktop/releases/tag/v1.0.0) | DMG on the release page | MSI on the release page |
-| [v2.1.0 RC 1 prerelease](https://github.com/javiergs/rover-desktop/releases/tag/v2.1.0-rc.1) | [Download DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.dmg) | [Download MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.msi) |
+- **[v1.0.0 stable](https://github.com/javiergs/rover-desktop/releases/tag/v1.0.0)**. The release page has installers for macOS (Apple silicon) and Windows (x64).
+- **[v2.1.0 RC 1 prerelease](https://github.com/javiergs/rover-desktop/releases/tag/v2.1.0-rc.1)**
+  - [macOS (Apple silicon) DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.dmg)
+  - [Windows (x64) MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.msi)
 
 Choose an installer from the release assets. GitHub's generated source archives contain this public documentation repository.
 
