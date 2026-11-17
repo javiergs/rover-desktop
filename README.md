@@ -10,9 +10,23 @@ ROVER Desktop is a **fully functional desktop application and real-time digital 
 
 Unlike an offline 3D model, the application supports **continuous RTDE robot-state streaming and interactive motion control**. The released application has been tested with both a physical Universal Robots robot and URSim.
 
-![ROVER Desktop v2 showing a 3D UR3e, joint sliders, tool controls, orthographic tool views, and Jog Canvas](assets/app-screenshot-v200.png)
+## Download
 
-ROVER Desktop v2.0.0 prerelease.
+| Version | macOS (Apple silicon) | Windows (x64) |
+| --- | --- | --- |
+| [v1.0.0 stable](https://github.com/javiergs/rover-desktop/releases/tag/v1.0.0) | DMG on the release page | MSI on the release page |
+| [v2.1.0 RC 1 prerelease](https://github.com/javiergs/rover-desktop/releases/tag/v2.1.0-rc.1) | [Download DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.dmg) | [Download MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0-rc.1/ROVER.Desktop-2.1.0.msi) |
+
+Choose an installer from the release assets. GitHub's generated source archives contain this public documentation repository.
+
+## What’s new in v2.1.0 RC 1
+
+- **Shared Drawing Queue** for strokes from Drawing View and Claude Desktop, with simulator preview and operator-started robot playback.
+- **Drawing pad and gripper controls** with pad overlays and live jaw position when a Hand-E is detected.
+- **Wrist-camera view** with continuous image updates and display rotation. Claude can request a color snapshot when the camera is available.
+- **Experimental 3D Scan** with camera calibration, image capture, and point-cloud preview.
+
+Wrist-camera and 3D scan behavior still need validation on physical hardware.
 
 ## Stable v1.0.0 features
 
@@ -38,22 +52,7 @@ ROVER Desktop v2.0.0 prerelease.
 
 ROVER Desktop is an application-level example of connecting Java-based visualization and interactive robot control with RTDE4J. The [RTDE4J getting-started repository](https://github.com/javiergs/rtde4j-getting-started) provides introductory examples and documentation; its minimal introductory client is not a complete description of the capabilities integrated into this desktop application.
 
-## Download
-
-Download **[ROVER Desktop v1.0.0](https://github.com/javiergs/rover-desktop/releases/tag/v1.0.0)** from the release assets:
-
-- **macOS (Apple silicon):** DMG installer.
-- **Windows (x64):** MSI installer.
-
-The installers retain the original Universal Robotics Desktop filenames. GitHub's automatically generated source archives contain this public documentation repository rather than the installed application.
-
-## ROVER Desktop v2.0.0 prerelease
-
-The [v2.0.0 prerelease](https://github.com/javiergs/rover-desktop/releases/tag/v2.0.0) introduces a redesigned desktop interface, a built-in UR3e simulator, and optional Claude Desktop integration. The stable v1.0.0 installers remain available above.
-
-- **Redesigned workspace** — a shaded 3D UR3e with a tabletop grid, six labeled joint sliders with selectable angle units, and Cartesian pose readouts beside tool rotation controls.
-- **Tool views and jogging** — aligned XY, XZ, and YZ projections with trails, a plane-selectable Jog Canvas, and a separate Logs view.
-- **Built-in simulation** — start at Initial Pose, jog the simulated tool, and play drawings without connecting to URSim or a physical robot.
+## Claude Desktop integration
 
 ### Set up Claude Desktop
 
@@ -62,13 +61,13 @@ The installers bundle the Claude bridge. For a standard installation, use the se
 1. Install and open ROVER Desktop.
 2. Choose **Help → Set up Claude Desktop…**. If ROVER detects Claude on first launch, it offers the same setup.
 3. Confirm the change and restart Claude. Setup backs up your Claude configuration and updates only the ROVER entry.
-4. Open ROVER normally when you want Claude to use it. Select **Enable MCP (offline simulation)** while disconnected to allow simulator motion.
+4. Keep ROVER open while using Claude. In v2.1.0 RC 1, **Enable MCP** is checked at startup. Clear it when you want to pause access.
 
-Keep ROVER open while using its tools in Claude. MCP motion is available only in offline simulation.
+Claude can read the pad coordinates and stage strokes in the shared Drawing Queue. Start physical drawing playback from ROVER. MCP motion tools are limited to offline simulation.
 
 ## Getting started
 
-1. Download and install the [latest published release](https://github.com/javiergs/rover-desktop/releases).
+1. Choose the stable release or prerelease from [Download](#download).
 2. Start with **URSim** rather than a physical robot. The [URSim setup guide](https://github.com/javiergs/rtde4j-getting-started/blob/main/docs/ursim-setup.md) describes a Docker-based environment.
 3. Launch ROVER Desktop and enter your robot or simulator IP address and relevant ports.
 4. Establish the connection and observe live robot-state feedback in the digital twin.
@@ -84,6 +83,10 @@ Want to explore a UR3e in your browser without installing an application? Try [R
 ## Safety
 
 **Use URSim first.** ROVER Desktop is experimental research software and is **not a safety-rated robot controller**. The desktop interface does not replace PolyScope, protective stops, emergency-stop equipment, or the safety procedures required for a physical robot. Motion commands to a physical robot require an appropriate risk assessment, a supervised workspace, and suitable safeguards. An AI-agent integration must also enforce independent command validation and safety constraints.
+
+## Earlier interface preview
+
+[View the v2.0.0 prerelease screenshot](assets/app-screenshot-v200.png).
 
 ## Feedback
 
