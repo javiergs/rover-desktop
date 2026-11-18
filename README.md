@@ -56,10 +56,10 @@ ROVER uses **URScript on port 30002** for supported robot commands and **RTDE on
 
 The installers include a Claude Desktop bridge. You do not need to configure Java or a separate MCP server manually.
 
-1. Install and open ROVER Desktop.
-2. Choose **Help → Set up Claude Desktop…**. When Claude Desktop is detected on first launch, ROVER may also offer this setup automatically.
-3. Confirm the setup, which backs up the Claude configuration and updates its ROVER entry, then restart Claude Desktop.
-4. Keep the ROVER window open while using Claude. **Enable MCP** is selected by default; clear it in ROVER to disable MCP access.
+1. Install Claude Desktop and open it at least once so it creates its local application data folder.
+2. Open ROVER Desktop and choose **Help → Set up Claude Desktop…**. ROVER may also offer setup when it starts and finds Claude Desktop’s application data folder. If you see no prompt, use the Help menu.
+3. Confirm setup. ROVER adds or updates the `rover` entry, preserves other MCP servers, and backs up any existing Claude configuration.
+4. Quit and reopen Claude Desktop. Keep ROVER open with **Enable MCP** selected. To verify the connection, leave the robot disconnected and ask Claude, “What are the current simulated joint angles in ROVER?”
 
 Claude can read simulated joint and tool state, work with the Drawing Queue, request drawing-pad coordinates, and retrieve a camera snapshot when available. **MCP robot-motion tools operate in offline simulation; physical drawing playback must be initiated by an operator in ROVER Desktop.** The queue can be inspected or staged while the robot is connected.
 
