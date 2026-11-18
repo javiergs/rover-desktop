@@ -12,10 +12,8 @@ Explore robot poses, draw and preview tool paths, work with a Robotiq gripper an
 
 **Latest stable release: [v2.1.0](https://github.com/javiergs/rover-desktop/releases/tag/v2.1.0)**
 
-| Platform | Installer |
-| --- | --- |
-| **macOS (Apple Silicon)** | [Download ROVER Desktop 2.1.0 — DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.dmg) |
-| **Windows (64-bit)** | [Download ROVER Desktop 2.1.0 — MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.msi) |
+- **macOS (Apple Silicon):** [Download ROVER Desktop 2.1.0 — DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.dmg)
+- **Windows (64-bit):** [Download ROVER Desktop 2.1.0 — MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.msi)
 
 The installers include the application and its Java runtime; no separate Java installation is required. On macOS, open the DMG and move the application into Applications. On Windows, run the MSI installer.
 
