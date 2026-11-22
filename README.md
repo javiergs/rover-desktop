@@ -1,5 +1,7 @@
 # ROVER Desktop
 
+[![Download](https://img.shields.io/github/v/release/javiergs/rover-desktop?label=Download)](https://github.com/javiergs/rover-desktop/releases/latest)
+
 **ROVER — Remote Operation and Visualization of Embodied Robots**
 
 ROVER Desktop is an interactive application for exploring, visualizing, and controlling Universal Robots e-Series robotic arms. It works **offline as a robot simulator** or, when connected to a Universal Robots controller or URSim, as a **live digital twin** using real-time RTDE feedback.
