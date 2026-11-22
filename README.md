@@ -10,7 +10,7 @@ Explore robot poses, draw and preview tool paths, work with a Robotiq gripper an
 
 ## Download ROVER Desktop
 
-**Latest stable release: [v2.1.0](https://github.com/javiergs/rover-desktop/releases/tag/v2.1.0)**
+Latest stable releases:
 
 - **macOS (Apple Silicon):** [Download ROVER Desktop 2.1.0 — DMG](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.dmg)
 - **Windows (64-bit):** [Download ROVER Desktop 2.1.0 — MSI](https://github.com/javiergs/rover-desktop/releases/download/v2.1.0/ROVER.Desktop-2.1.0.msi)
